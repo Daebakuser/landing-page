@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="section-one">
+        <div class="header">
+            <div class="heading">
+                <h1>You Deserve a Break</h1>
+            </div>
+            <div class="nav">
+                <a href="">About</a>
+                <a href="">Blog</a>
+                <a href="">Break-Resources</a>
+            </div>
+        </div>
+        <div class="content">
+            <div class="intro">
+                <h2>Break Free: It's your time to shine.</h2>
+                <ul>
+                   <li><em>Self recovery</em></li>
+                   <li><em>Your mental health and inner peace are important</em></li>
+                <li><em>Always choose you</em></li>
+                </ul>
+                <p>A guide to finding yourself, build up your positive energy.</p>
+                <button id="signup">Sign up</button>
+            </div>
+            <div class="video-container">
+                <video autoplay muted loop id="video">
+                    <source src="./video/beautiful.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </section>
+    <section class="section-two">
+        <h2 class="center">Self Care Magic: Transforming to a Happier You!</h2>
+        <div class="container">
+            <div class="info">
+                <img src="./img/fall.jpg" alt="An illustration of a girl sitting by the window staring outside of it with a cat beside her">
+                <div class="text">Discover inner calmness by fully embracing yourself, acknowledging both strengths and imperfections along your individual journey.</div>
+            </div>
+            <div class="info">
+                <img src="./img/girl.webp" alt="An illustration of a girl smiling and standing with her hands in her jeans' pocket ">
+                <div class="text">Build self-confidence through self-care, acknowledging your capability to overcome challenges and succeed in whatever you pursue.</div>
+            </div>
+            <div class="info">
+                <img src="./img/mom.webp" alt="An illustration of a woman with a lying down with a facial mask on an slices of cucumbers on her eyes.">
+                <div class="text">Dear moms, self-care isn't just a break, it's your transformative secret. It fuels you to be an even more loving, energertic, and an extraordinary force for your family.</div>
+            </div>
+            <div class="info">
+                <img src="./img/smile.jpg" alt="An illustration of a woman smiling with a cup of coffee in her hands while standing. ">
+                <div class="text">Embarking on the path to self-dicovery is like sipping on a comforting cup of coffee, it's a mix of self-care, moments that bring a smile and the delightful embrace of life's little pleasures.</div>
+            </div>
+            <div class="info">
+                <img src="./img/yoga.jpg" alt="An illustration of a woman doing yoga">
+                <div class="text">Yoga is a self deserving break time, less stress,more flexibility, and getting into that zen zone. </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-three">
+        <div class="transparent">
+            <h3>HIVE'S HARMONY</h3>
+            <p>Bee well: your self-care journey is the sweet nectar that nourishes not just you, 
+         but the entire hive of life.<span class="right">Embrace Your Inner Bee</span> </p>
+         <div class="bee">
+            <img src="./img/bee.png" id="bee" alt="">
+         </div>
+        </div>
+    </section>
+    <section class="section-four">
+        <img src="./img/woman.webp" alt="An illustration of a woman with her eyes closed and a trail of leaves from her face to her shoulders" id="picture">
+        <div class="box">
+            <div>
+                <h3>Remember: Always Choose You</h3>
+                <p>Sign up today for a daily dose of self-love and inspiration. <br>#SelfCareJourney&#127807;&#128154;&#128149;  </p>
+            </div>
+            <div class="button">
+                <button id="sign">Sign Up</button>
+            </div>
+        </div>
+        <button id="moreInfo" onclick="toggleSection()"><em>Click for multimedia sources</em></button>
+    </section>
+    <div id="hiddenSection">
+        <h3 class="center">The pictures and video used on this page were gotten from <a class="hidden" href="https://pixabay.com/" target="blank" rel="noopener noreferrer">Pixabay</a></h3>
+        <p class="center"><strong><em>Credit to the respective owners for the contents used</em></strong></p>
+        <div class="center">
+            <h4>Owners' Pixabay Profiles</h4>
+            <p>&#11088;Credit for the video used in the first section---<a class="hidden" href="https://pixabay.com/users/monk_vadim-23253177/" target="blank" rel="noopener noreferrer"><strong>Monk_Vadim</strong></a></p>
+            <p>&#11088;Credit for the pictures of female illustrations used in the second and fourth sections---<a class="hidden" href="https://pixabay.com/users/Iavnatalia-5858294/" target="blank" rel="noopener noreferrer">Iavnatalia</a> </p>
+            <p>&#11088;Credit for the bee illustration picture used in the third section---<a class="hidden" href="https://pixabay.com/users/andremsdesign" target="blank" rel="noopener noreferrer">andremsdesign</a> </p>
+        </div>
+    </div>
+    <script>
+        function toggleSection(){
+            let section=document.getElementById("hiddenSection");
+            if(section.style.display==="none"){
+                section.style.display="block";
+            }else{
+                section.style.display="none";
+            }
+        }
+    </script>
+    <footer>
+        <p class="center"><strong>Copyright &copy; 2023 <a class="copyright" href="https://github.com/Daebakuser/" target="_blank" rel="noopener noreferrer">Daebakuser</a> and <a class="copyright" href="https://theodinproject.com/" target="_blank" rel="noopener noreferrer">The Odin Project</a></strong></p>
+    </footer>
+</body>
+</html>
