@@ -1,3 +1,7 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
 .header{
     display: flex;
     justify-content: space-between;
@@ -44,6 +48,7 @@ a{
 
 .video-container, .intro{
     flex: 0 1 auto;
+    overflow: hidden;
 }
 
 #signup{
@@ -90,17 +95,18 @@ img{
     background-color: #ffff99;
     height: 300px;
     padding: 20px;
+    padding-top: 50px;
     margin: 0 -10px;
 }
 
 .transparent{
     background-color: rgba(0,0,0,0.2);
     border-radius: 30px;
-    width: 40%;
+    width: 50%;
     height: 50%;
     margin: 10px auto;
     padding: 30px;
-    padding-bottom: 50px;
+    padding-bottom: 70px;
 }
 
 .right{
@@ -112,9 +118,11 @@ img{
 }
 
 #bee{
-    width: 40px;
+   width: 40px;
     height: auto;
     border: none;
+    display: inline-block;
+    margin-top: -20px;
 }
 
 .section-four{
