@@ -6,3 +6,5 @@ The goal is to follow The Odin Project's guidelines to create
 an effective and engaging entry point for visitors to showcase my
 understanding of HTML and CSS, and to demonstrate my skills in
 web development.
+
+To visit landing page,[Give me a click!]( https://daebakuser.github.io/landing-page/)
